@@ -4,10 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Lobster"
-      ></link>
+     
       <div id="about">
         <h1 className=" mt-20 text-3xl text-center font-serif font-extrabold md:text-5xl lg:text-6xl">
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-yellow-200 from-pink-200">
@@ -18,7 +15,7 @@ const About = () => {
             mx-10 lg:text-2xl md:text-2xl ">
           <h1>
             {" "}
-            I'm{" "}
+            I&apos;m{" "}
             <span className=" lg:text-4xl md:text-3xl text-2xl font-semibold text-purple">
               Sanchita Priyadarshinee
             </span>
@@ -48,7 +45,7 @@ const About = () => {
           <li className="lg:mt-5 md:mt-5">Version Control: Git, GitHub</li>
           <li className="lg:mt-5 md:mt-5">Frontend Technologies: React.js, Next.js</li>
           <li className="lg:mt-5 md:mt-5">Databases: SQL</li>
-          <li className="lg:mt-5 md:mt-5">ML:CNN, ANN</li>
+          <li className="lg:mt-5 md:mt-5">ML: CNN, ANN</li>
         </div>
       </div>
         <img className="opacity-35" src="/IT.png" alt="IT" />

@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className="lg:px-16">
           <p className="lg:text-3xl lg:text-start md:text-4xl text-2xl text-center ">Just Say Hello !</p>
-          <p className="text-xl mt-4 lg:text-start text-center">Let's know more about you !</p>
+          <p className="text-xl mt-4 lg:text-start text-center">Let&apos;s know more about you !</p>
           <div className="flex flex-col my-16 lg:mx-0 lg:justify-normal lg:items-baseline justify-center items-center ">
             <div className="lg:flex lg:flex-row lg:space-x-11 lg:space-y-0 space-y-11 md:flex md:flex-row md:space-x-11 md:space-y-0">
               <ul className="lg:flex lg:flex-row lg:space-x-11 lg:space-y-0 space-y-11 md:flex md:flex-row md:space-x-11 md:space-y-0 ">
