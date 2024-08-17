@@ -11,8 +11,7 @@ const Hero = () => {
           <button
             className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
             onClick={() => setIsOpen(!isOpen)}
-          >
-          </button>
+          ></button>
           {isOpen && (
             <ul className=" mt-10 md:hidden grid grid-rows-4 pt-10 rounded-xl bg-black-300 text-center">
               <li className=" mb-10">
@@ -94,9 +93,12 @@ const Hero = () => {
         </h1>
 
         <figure className="mt-10 rounded-3xl shadow-sm  shadow-purple max-w-sm px-3 md:mx-0 md:my-0 mx-10">
-          <img className="py-5 shadow-2xl shadow-black-300 rounded-br-full size-[400px]" src="/Screenshot 2024-08-17 at 5.01.09 PM.png" alt="Profile" />
+          <img
+            className="py-5 shadow-2xl shadow-black-300 rounded-br-full size-[400px]"
+            src="/Screenshot 2024-08-17 at 5.01.09 PM.png"
+            alt="Profile"
+          />
         </figure>
-        
       </div>
     </div>
   );

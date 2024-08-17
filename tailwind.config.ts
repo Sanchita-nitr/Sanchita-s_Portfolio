@@ -11,11 +11,11 @@ const config: Config = {
 
       keyframes: {
         subtleWiggle: {
-        
+
           '20%': { transform: 'translateX(-10px)' },
           '70%': { transform: 'translateX(10px)' },
-          '50%': {transform: 'translateY(10px)'},
-          '40%': {transform: 'translateY(-10px)'},
+          '50%': { transform: 'translateY(10px)' },
+          '40%': { transform: 'translateY(-10px)' },
         },
       },
       animation: {
@@ -26,9 +26,10 @@ const config: Config = {
         '1/20': '0.05rem',
       },
       fontFamily: {
-        archivoBlack: ['"Archivo Black"', 'sans-serif'],
-        bodoniModa: ['"Bodoni Moda SC"', 'serif'],
-        montserrat: ['"Montserrat"', 'sans-serif',],
+        montserrat: [
+          '"Montserrat"',
+          'sans-serif',
+        ],
       },
       colors: {
         black: {
@@ -53,8 +54,8 @@ const config: Config = {
         foreground: "hsl(var(--foreground))",
       }
     }
-    },
-    plugins: [],
-  };
+  },
+  plugins: [],
+};
 export default config;
 

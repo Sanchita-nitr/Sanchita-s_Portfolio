@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 
-
 const About = () => {
   return (
     <>
@@ -11,8 +10,10 @@ const About = () => {
             About Me
           </span>
         </h1>
-        <div className="content text-justify justify-normal whitespace-normal text-xl pt-5 lg:mx-52 md:mx-16
-            mx-10 lg:text-2xl md:text-2xl ">
+        <div
+          className="content text-justify justify-normal whitespace-normal text-xl pt-5 lg:mx-52 md:mx-16
+            mx-10 lg:text-2xl md:text-2xl "
+        >
           <h1>
             {" "}
             I&apos;m{" "}
@@ -38,20 +39,24 @@ const About = () => {
       </div>
 
       <div className="mt-28 rounded-2xl">
-      <div className=" hover:scale-110 duration-500 p-6 bg-gradient-to-r from-black  via-purple to-black">
-        <p className=" lg:text-5xl md:text-4xl uppercase font-extrabold text-black text-center shadow-black shadow-md lg:my-10 md:my-10 mb-5  ">Skills</p>
-        <div className=" grid grid-cols-1 font-montserrat font-medium text-gray-950 shadow-md shadow-white md:px-16 px-5 md:py-16 md:text-2xl lg:mx-32 ">
-          <ul>
-          <li >Languages: Python, C++, Java, JavaScript, TypeScript .</li>
-          <li className="lg:mt-5 md:mt-5">Version Control: Git, GitHub .</li>
-          <li className="lg:mt-5 md:mt-5">Frontend Technologies: React.js, Next.js .</li>
-          <li className="lg:mt-5 md:mt-5">Databases: SQL .</li>
-          <li className="lg:mt-5 md:mt-5 md:mb-0 mb:5">ML: CNN, ANN .</li>
-          </ul>
-          
+        <div className=" hover:scale-110 duration-500 p-6 bg-gradient-to-r from-black  via-purple to-black">
+          <p className=" lg:text-5xl md:text-4xl uppercase font-extrabold text-black text-center shadow-black shadow-md lg:my-10 md:my-10 mb-5 font-serif ">
+            Skills
+          </p>
+          <div className=" grid grid-cols-1 font-montserrat font-extrabold italic tracking-wider text-gray-950 shadow-md shadow-white md:px-16 px-5 md:py-16 md:text-2xl lg:mx-32 ">
+            <ul>
+              <li>Languages: Python, C++, Java, JavaScript, TypeScript .</li>
+              <li className="lg:mt-5 md:mt-5">
+                Version Control: Git, GitHub .
+              </li>
+              <li className="lg:mt-5 md:mt-5">
+                Frontend Technologies: React.js, Next.js .
+              </li>
+              <li className="lg:mt-5 md:mt-5">Databases: SQL .</li>
+              <li className="lg:mt-5 md:mt-5 md:mb-0 mb:5">ML: CNN, ANN .</li>
+            </ul>
+          </div>
         </div>
-      </div>
-        
       </div>
     </>
   );
