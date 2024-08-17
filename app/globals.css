@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -87,5 +89,8 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
-
+.size-\[400px\] {
+  width: 290px;
+  height: 450px;
+}
 

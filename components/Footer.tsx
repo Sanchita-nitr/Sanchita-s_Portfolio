@@ -122,7 +122,7 @@ const Footer = () => {
             </div>
             <div className="mt-6">
               <button
-                className="py-4 px-8 text-xl rounded-2xl bg-black-300"
+                className="py-4 px-8 text-xl rounded-2xl bg-black-300 hover:text-purple hover:underline font-serif"
                 type="submit"
               >
                 Submit
@@ -156,9 +156,9 @@ const Footer = () => {
             {responseMessage}
           </p>
         )}
-        <div className="flex mt-16 md:flex-row flex-col justify-between items-center pb-10">
-          <p className="md:text-base text-sm md:font-normal font-light text-gray-500">
-            Copyright © 2024 Sanchita Priyadarshinee
+        <div className="mt-16 md:flex-row flex-col justify-between items-center pb-10 text-center grid grid-cols-1">
+          <p className="md:text-base text-sm md:font-normal font-light text-gray-500  ">
+            Copyright @ 2024 Sanchita Priyadarshinee
           </p>
         </div>
       </form>

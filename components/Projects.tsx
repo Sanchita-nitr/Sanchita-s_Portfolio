@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div id="projects" >
-    <div className="lg:mt-48  text-gray-400 font-serif">
+    <div className="  text-gray-400 font-serif">
     <h1 className=" mt-20 lg:mb-20 mb-10 text-3xl text-center font-serif font-extrabold md:text-5xl lg:text-6xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-yellow-200 from-pink-200">My Projects</span></h1>
       <ul className="lg:mx-0 md:mx-0 mx-5 grid gap-10 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
         <li>

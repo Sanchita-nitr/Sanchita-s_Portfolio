@@ -8,9 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      spacing:{
-        '1/10': '0.1em',
-        '1/20': '0.05em',
+
+      keyframes: {
+        subtleWiggle: {
+        
+          '20%': { transform: 'translateX(-10px)' },
+          '70%': { transform: 'translateX(10px)' },
+          '50%': {transform: 'translateY(10px)'},
+          '40%': {transform: 'translateY(-10px)'},
+        },
+      },
+      animation: {
+        subtleWiggle: 'subtleWiggle 3s ease-in-out infinite',
+      },
+      spacing: {
+        '1/10': '0.1rem',
+        '1/20': '0.05rem',
+      },
+      fontFamily: {
+        archivoBlack: ['"Archivo Black"', 'sans-serif'],
+        bodoniModa: ['"Bodoni Moda SC"', 'serif'],
+        montserrat: ['"Montserrat"', 'sans-serif',],
       },
       colors: {
         black: {
